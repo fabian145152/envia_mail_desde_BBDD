@@ -1,8 +1,21 @@
 hago una modificacion
  git status -s    ;me la lista
  git add .  
+ puede pedir ruta       git add ruta/archivo.extension
  git commit -m ""    ; agrego mensaje
- git push	     ;subo todo a mi repo en git
+ git push -u origin main	     ;subo todo a mi repo en git
  git pull 	     ;Traigo todo desde github a mi vsc
 
 
+
+Traer de versiones anterioren en repo local
+
+ git log --oneline
+
+ 
+
+Volver a repositorio local anterior
+
+git log --oneline       lista lodos los commit con un numero
+
+$ git reset --hard 5df2515      elijo el numero del listado anterior y se me descarga todo a mi version anterior
